@@ -1,0 +1,223 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Gochi Hand', 'Montserrat';
+
+}
+
+h3{
+	font-family: 'Rock Salt', cursive;
+	background-image: url("images/purple-bg.png");
+	background-repeat: no-repeat;
+}
+p{
+	line-height: 2;
+}
+
+hr{
+	width: 70vw;
+	margin: 0 auto;
+	height: 1px;
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+nav {
+	z-index: 1;
+}
+
+.scrolled{
+	 background-color: rgba(0,0,0,1);
+ 	 transition: background-color 400ms linear;
+}
+
+ul a{
+	color:yellow !important;
+	margin:0 30px;
+	font-size: 25px;
+}
+
+.navbar-toggler{
+	color:#fff;
+	border:none;
+	outline: none;
+}
+
+.navbar-toggler .fas{
+	color:white;
+	font-size: 20px;
+}
+
+.nav-link:hover{
+	font-weight: 600;
+	color: yellow;
+	border-bottom: 1px solid yellow;
+	margin-bottom: -1px;
+}
+
+
+
+
+
+
+.jumbotron{
+	background-image: url("images/landscape-background.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+
+.jumbotron img {
+	width: 400px;
+}
+
+.jumbotron h1{
+	font-family: 'Rock Salt', cursive;	
+	margin-bottom: 30px;
+	margin: 0 30px;
+	line-height: 2;
+}
+
+
+
+
+
+
+
+.hustle img{
+width:600px;
+float:right;
+margin-top: 20px;
+
+}
+
+.hustle .hustle-inner{
+	
+	width: 500px;
+	line-height: 2;
+}
+.hustle{
+	height: 90vh;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+
+
+
+
+.hobbies{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+.card img{
+	max-height: 250px;
+}
+.card{
+	max-height: 400px;
+	width: 18rem;
+	margin: 45px;
+
+}
+
+
+
+
+
+
+
+
+
+.religion{
+	height: 480px;
+	margin-top: 30px;
+	background-color: #ededed;
+}
+.religion-inner h1,p{
+	margin: 40px 0;
+}
+
+
+
+#Obsessions{
+	margin-bottom: 30px;
+}
+
+.display-4{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.texts{
+	background-color: rgba(0,0,0,0.7);
+	width: 30%;
+}
+
+
+
+
+
+
+
+footer{
+	height: 30vh;
+	color:#fff;
+	background-color: #000
+
+}
+footer div{
+	text-align: center;
+	padding: 40px 0;
+}
+footer div h5,p{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+footer p.fab{
+	color: white;
+	font-size: 70px;
+}
+
+
+
+/*media queries*/
+
+@media only screen and (max-width: 992px){
+
+	.navbar{
+		background-color: rgba(0,0,0,0.6);
+	}
+	.nav-link:hover{
+		border-bottom: none;
+	}
+
+	.hustle{
+		
+		display: block;
+		width: 100%
+		z-index:1;
+	}
+	.hustle img{
+		width: 80vw;
+	}
+	.hustle-inner{
+		width: 100%;
+	}
+	
+	.card{
+		margin: 25px;
+		width: 20rem;
+	}
+}
