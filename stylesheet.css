@@ -21,14 +21,7 @@ hr{
 	display: block;
 }
 
-
-
-
-
-
-
-
-
+/*navigation*/
 nav {
 	z-index: 1;
 }
@@ -62,11 +55,7 @@ ul a{
 	margin-bottom: -1px;
 }
 
-
-
-
-
-
+/*jumbotron*/
 .jumbotron{
 	background-image: url("images/landscape-background.jpg");
 	height: 100vh;
@@ -87,11 +76,7 @@ ul a{
 }
 
 
-
-
-
-
-
+/*Hustle*/
 .hustle img{
 width:600px;
 float:right;
@@ -111,17 +96,12 @@ margin-top: 20px;
 	align-items: center;
 }
 
-
-
-
-
+/*hobbies*/
 .hobbies{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
-
-
 .card img{
 	max-height: 250px;
 }
@@ -129,17 +109,9 @@ margin-top: 20px;
 	max-height: 400px;
 	width: 18rem;
 	margin: 45px;
-
 }
 
-
-
-
-
-
-
-
-
+/*religion*/
 .religion{
 	height: 480px;
 	margin-top: 30px;
@@ -149,8 +121,7 @@ margin-top: 20px;
 	margin: 40px 0;
 }
 
-
-
+/*obsessions*/
 #Obsessions{
 	margin-bottom: 30px;
 }
@@ -164,20 +135,16 @@ margin-top: 20px;
 	width: 30%;
 }
 
-
-
-
-
-
-
+/*footer*/
 footer{
-	height: 30vh;
+	height: fit-content;
 	color:#fff;
 	background-color: #000
 
 }
 footer div{
 	text-align: center;
+	padding: 50px;
 	padding: 40px 0;
 }
 footer div h5,p{
@@ -189,7 +156,6 @@ footer p.fab{
 	color: white;
 	font-size: 70px;
 }
-
 
 
 /*media queries*/
